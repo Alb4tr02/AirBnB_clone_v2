@@ -9,3 +9,6 @@ app = Flask(__name__)
 def hello_world():
     """ resturn string content """
     return 'Hello HBNB!'
+
+if __name__ == '__main__':
+app.run()
